@@ -7,6 +7,7 @@ public class fsgit {
         System.out.println(mult(1,2));
         System.out.println(div(4,2));
         System.out.println(res(10,3));
+        System.out.println("Finish GitFlow");
 
     }
 
