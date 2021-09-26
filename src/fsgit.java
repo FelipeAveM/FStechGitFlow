@@ -5,6 +5,7 @@ public class fsgit {
         System.out.println(add(1,2));
         System.out.println(subs(1,2));
         System.out.println(div(4,2));
+        System.out.println(res(10,3));
 
     }
 
@@ -19,4 +20,9 @@ public class fsgit {
     public static double div (int a, int b){
         return a/b;
     }
+
+    public static double res (int a, int b){
+        return a%b;
+    }
+
 }
