@@ -2,32 +2,32 @@ public class fsgit {
     public static void main(String[] args) {
 
         System.out.println("Hello World!");
-        System.out.println(add(1,2));
-        System.out.println(subs(1,2));
-        System.out.println(mult(1,2));
-        System.out.println(div(4,2));
-        System.out.println(res(10,3));
+        System.out.println(integerAddition(1,2));
+        System.out.println(integerSubstraction(1,2));
+        System.out.println(integerMultiplication(1,2));
+        System.out.println(integerDivision(4,2));
+        System.out.println(integerResidue(10,3));
         System.out.println("Finish GitFlow");
 
     }
 
-    public static int add (int a, int b ){
+    public static int integerAddition(int a, int b ){
         return a + b;
     }
 
-    public static int subs (int a, int b ){
+    public static int integerSubstraction(int a, int b ){
         return a - b;
     }
 
-    public static int mult (int a, int b){
+    public static int integerMultiplication(int a, int b){
         return a*b;
     }
 
-    public static double div (int a, int b){
+    public static double integerDivision(int a, int b){
         return a/b;
     }
 
-    public static double res (int a, int b){
+    public static double integerResidue(int a, int b){
         return a%b;
     }
 
